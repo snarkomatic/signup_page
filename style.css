@@ -1,0 +1,89 @@
+body {
+	background-color: dodgerblue;
+	font-family: 'Roboto';
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	padding: 50px;
+	text-align: center;
+}
+
+header img {
+	height: 35px;
+}
+
+.signup {
+	width: 400px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 40px;
+	border-radius: 3px;
+}
+
+.signup legend {
+	background-color: white;
+	padding: 40px 0 15px 0;
+	text-align: center;
+	margin: 0 auto 45px;
+	font-size: 35px;
+	line-height: 38px;
+}
+
+.signup p {
+	font-size: 12px;
+	text-align: center;
+	margin: 0;
+	margin-top: 10px;
+	color: #999;
+}
+
+.signup a {
+	color: #999;
+}
+
+input[type='email'], input[type='password'], button[type='submit'] {
+	background: #fcfcfc;
+	border: 2px solid #e7e7e7;
+	margin: 20px auto;
+	padding: 15px;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	border-radius: 3px;
+	text-align: left;
+	height: auto;
+}
+
+button[type='submit'] {
+	color: white;
+	background: #15CD72;
+	border: 0;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 0;
+	height: auto;
+}
+
+button:hover[type='submit'] {
+    background-color: #0CB863;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+}
+
+.login {
+	color: white;
+	margin: 20px auto;
+	text-align: center;
+	margin: 20px auto;
+	border: 0;
+	padding: 0;
+}
+
+.login a {
+	color: white;
+}
